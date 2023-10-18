@@ -1,10 +1,10 @@
 ## Краткое вступление
 
-Решения всех задач представлены на языке программирования Python (версия интерпретатора = 3.10.12).
+Решения задач представлены на языке программирования Python (версия интерпретатора = 3.10.12).
 
 • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-Для запуска скриптов желательно клонировать [(скачать)](https://github.com/sudomango/Python-Algo-A/archive/refs/heads/main.zip) весь репозиторий.
+Для запуска скриптов необходимо клонировать [(скачать)](https://github.com/sudomango/Python-Algo-A/archive/refs/heads/main.zip) весь репозиторий.
 
 ```shell
 git clone https://github.com/sudomango/Python-Algo-A.git
