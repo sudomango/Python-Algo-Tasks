@@ -18,7 +18,7 @@ def main():
   print("323 =", is_prime_number(323)) # = False
   print("1095672487 =", is_prime_number(1095672487)) # = False
 
-  print("\nПроверка чисел от 1 до 100:", end = " ")
+  print("\nПростые числа от 1 до 100:", end = " ")
   
   for number in irange(1, 100):
     if (is_prime_number(number)): print(number, end = " ")

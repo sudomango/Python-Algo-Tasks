@@ -6,13 +6,13 @@ import useful_functions as useful
 def main():
   new_array = useful.random_array(-100, 100, 40)
 
-  print("Array = ", end = "")
+  print("\nИсходный массив = ", end = "")
   useful.print_array(new_array)
 
   result_sums = sum_of_pos_and_neg(new_array)
 
-  print(f"Сумма положительных элементов = {result_sums[0]}.")
-  print(f"Сумма отрицательных элементов = {result_sums[1]}.")
+  print(f"Сумма положительных элементов = {result_sums[0]}")
+  print(f"Сумма отрицательных элементов = {result_sums[1]}")
 
 
 def sum_of_pos_and_neg(array):

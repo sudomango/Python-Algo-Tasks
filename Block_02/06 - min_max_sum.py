@@ -4,12 +4,17 @@ sys.path.append("..")
 import useful_functions as useful
 
 def main():
+
   array = useful.random_array(-100, 100, 20)
 
   result = min_max_sum(array)
 
+  print("Source Array = ", end = "")
+  useful.print_array(array)
+
   # Сортируем массив для удобства проверки работы функции.
   array.sort()
+  print("Sorted Array = ", end = "")
   useful.print_array(array)
 
   print(f"Min = {result['min']}, Max = {result['max']}, Sum = {result['sum']}, Avg = {result['avg']:.4f}")

@@ -91,3 +91,24 @@ def print_array(user_array):
 
 def string_reverse(user_string):
   return user_string[::-1]
+
+# ------------------------------------------------------
+
+# Функция factorize раскладывает указанное в параметрах число на простые множители.
+
+def factorize(the_number):
+
+  factors = []
+
+  div = 2
+
+  while div * div <= the_number:
+    if the_number % div == 0:
+      factors.append(div)
+      the_number = the_number // div
+    else:
+      if (div == 2): div += 1
+      else: div += 2
+
+  if the_number > 1: factors.append(the_number)
+  return factors
