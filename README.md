@@ -27,13 +27,13 @@ pip install pytz
 Запуск решений в командной строке Windows:
 
 ```shell
-python Block_##/<script_name>.py
+python script_name.py
 ```
 
 Для Linux команда будет немного отличаться (проверено на Ubuntu Server):
 
 ```bash
-python3 Block_##/<script_name>.py
+python3 script_name.py
 ```
 
 </details>
