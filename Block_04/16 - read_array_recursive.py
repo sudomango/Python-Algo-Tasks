@@ -9,7 +9,7 @@ def main():
 
   recursion_array(0, 0, new_array_2d)
 
-# ------------------------------------------------------
+# ----------------
 
 def recursion_array(index_a, index_b, array):
   if (index_a < len(array)):
@@ -25,6 +25,6 @@ def recursion_array(index_a, index_b, array):
 
 # Для элементов первой глубины вложенности используем index_a, для элементов внутри вложенных списков = index_b.
 
-# ------------------------------------------------------
+# ----------------
 
 main()

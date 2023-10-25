@@ -16,7 +16,7 @@ def main():
   print("Keep Order: ", end = "")
   useful.print_array(unique_elements(array.copy()))
 
-# ------------------------------------------------------
+# ----------------
 
 # Сортируем список, после чего поочерёдно проверяем элементы на уникальность.
 def uniques_sorted(user_list):
@@ -41,7 +41,7 @@ def uniques_sorted(user_list):
         uniques.append(current)
   return uniques
 
-# ------------------------------------------------------
+# ----------------
 
 # Альтернативная реализация, в которой мы используем метод list.count().
 def unique_elements(user_list):
@@ -53,6 +53,6 @@ def unique_elements(user_list):
 
   return uniques
 
-# ------------------------------------------------------
+# ----------------
 
 main()

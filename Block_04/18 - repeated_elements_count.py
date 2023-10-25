@@ -12,7 +12,7 @@ def main():
 
   print(f"Было найдено {elem_count} {correct_text_output(elem_count)} символа (подстроки) \"{user_input}\".")
 
-# ------------------------------------------------------
+# ----------------
 
 def correct_text_output(number):
   if (number in range(11, 15)):
@@ -25,6 +25,6 @@ def correct_text_output(number):
   else:
     return "вхождений"
 
-# ------------------------------------------------------
+# ----------------
 
 main()

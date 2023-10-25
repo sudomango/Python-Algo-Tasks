@@ -1,5 +1,3 @@
-# В принципе, используем почти те же самые методы, что и для работы с числами.
-
 def main():
   text_a = "This is unusual string"
   text_b = "А эта строка совершенно обыкновенная"
@@ -14,7 +12,7 @@ def main():
   (text_a, text_b) = swap_strings(text_a, text_b)
   print(text_a, text_b, sep=" -/- ")
 
-# ------------------------------------------------------
+# ----------------
 
 def swap_strings(str_a, str_b):
   str_a = str_a + str_b
@@ -22,6 +20,6 @@ def swap_strings(str_a, str_b):
   str_a = str_a[len(str_b):]
   return (str_a, str_b)
 
-# ------------------------------------------------------
+# ----------------
 
 main()

@@ -13,12 +13,12 @@ def main():
   print("Все делители числа 2080:", end = " ")
   useful.print_array(find_divisors(2080))
 
-# ------------------------------------------------------
+# ----------------
 
 # Проверить правильность работы программы можно здесь:
 # https://onlinemathtools.com/find-all-divisors
 
-# ------------------------------------------------------
+# ----------------
 
 def find_divisors(number):
   divisors = []
@@ -36,6 +36,6 @@ def find_divisors(number):
   divisors.sort()
   return divisors
 
-# ------------------------------------------------------
+# ----------------
 
 main()

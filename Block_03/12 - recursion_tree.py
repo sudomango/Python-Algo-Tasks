@@ -1,5 +1,5 @@
 def main():
-  
+
   height = int(input("Введите высоту ёлочки, не больше 40: "))
 
   if (height < 1):
@@ -13,7 +13,7 @@ def main():
   print()
   print_figure(height)
 
-# ------------------------------------------------------
+# ----------------
 
 # Функция выводит паттерн вида "* *" указанное количество раз.
 def pattern(n):
@@ -22,13 +22,13 @@ def pattern(n):
     pattern_array.append("*")
   return " ".join(pattern_array)
 
-# ------------------------------------------------------
+# ----------------
 
 # Функция выводит указанное количество пробелов подряд.
 def space(n):
   return " " * n
 
-# ------------------------------------------------------
+# ----------------
 
 # Основная функция, которая рисует ёлочку по формуле space + pattern + space.
 def print_figure(height):
@@ -40,9 +40,9 @@ def print_figure(height):
       spaces = space((width - len(content)) // 2)
       print(spaces + content + spaces)
       draw_recursive(i + 1, height, width)
-  
+
   draw_recursive(1, height, max_tree_width)
 
-# ------------------------------------------------------
+# ----------------
 
 main()

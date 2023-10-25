@@ -3,7 +3,7 @@ sys.path.append("..")
 
 import useful_functions as useful
 
-# ------------------------------------------------------
+# ----------------
 
 original = useful.random_array(-200, 200, 100)
 
@@ -21,5 +21,3 @@ useful.print_array(pos_even_array)
 
 print("\nSecond Array = ", end = "")
 useful.print_array(div_ten_array)
-
-# ------------------------------------------------------

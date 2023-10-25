@@ -14,6 +14,7 @@ def main():
   print(f"Сумма положительных элементов = {result_sums[0]}")
   print(f"Сумма отрицательных элементов = {result_sums[1]}")
 
+# ----------------
 
 def sum_of_pos_and_neg(array):
   pos_sum = 0
@@ -24,5 +25,6 @@ def sum_of_pos_and_neg(array):
 
   return (pos_sum, neg_sum)
 
+# ----------------
 
 main()

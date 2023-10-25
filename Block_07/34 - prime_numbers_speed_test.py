@@ -17,10 +17,10 @@ def main():
   print(f"Время выполнения Решета Эратосфена = {(time_b - time_a):.5f} секунд.")
   print(f"Время выполнения наивного улучшенного алгоритма = {(time_d - time_c):.5f} секунд.")
 
-  # На моём компьютере наивный улучшенный алгоритм начинает заметно проигрывать при значениях max_number от 30.000.
+  # На моём компьютере наивный улучшенный алгоритм начинает заметно проигрывать при значениях max_number от 30'000.
   # Примечание: В будущем можно реализовать наивный улучшенный алгоритм с функцией "запоминания" простых чисел.
 
-# ------------------------------------------------------
+# ----------------
 
 def prime_soe(max_number):
 
@@ -35,16 +35,16 @@ def prime_soe(max_number):
       for multiple in range(number * number, max_number + 1, number):
         if multiple % number == 0:
           sieve[multiple] = False
-  
+
   prime_numbers = []
 
   for index in range(0, len(sieve)):
     if sieve[index]:
       prime_numbers.append(index)
-  
+
   return prime_numbers
 
-# ------------------------------------------------------
+# ----------------
 
 def is_prime_number(number):
 
@@ -57,9 +57,9 @@ def is_prime_number(number):
   for divider in range(3, max_number + 1, 2):
     if (number % divider == 0):
       return False
-  
+
   return True
 
-# ------------------------------------------------------
+# ----------------
 
 main()

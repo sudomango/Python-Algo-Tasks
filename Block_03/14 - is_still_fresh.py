@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
 
-# ------------------------------------------------------
+# ----------------
 
 def main():
 
@@ -19,7 +19,7 @@ def main():
     fresh = is_still_fresh(pr, date_now)
     print(f"Продукт = {pr[0]}, Свежий = {fresh}")
 
-# ------------------------------------------------------
+# ----------------
 
 def is_still_fresh(product, today):
   plus_days = int(product[2].split()[0]) # Получаем количество дней в сроке годности.
@@ -31,6 +31,6 @@ def is_still_fresh(product, today):
   else:
     return True
 
-# ------------------------------------------------------
+# ----------------
 
 main()
