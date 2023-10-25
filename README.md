@@ -8,7 +8,7 @@
 
 • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-<details><summary>Установка и запуск скриптов на компьютере:</summary>
+<details><summary>Установка и запуск решений на компьютере:</summary>
 
 <br>
 
@@ -27,14 +27,16 @@ pip install pytz
 Запуск решений в командной строке Windows:
 
 ```shell
-python script_name.py
+python Folder_Name/script_name.py
 ```
 
 Для Linux команда будет немного отличаться (проверено на Ubuntu Server):
 
-```bash
-python3 script_name.py
+```shell
+python3 Folder_Name/script_name.py
 ```
+
+Далее действуем согласно инструкциям скрипта и условиям конкретной задачи.
 
 </details>
 
