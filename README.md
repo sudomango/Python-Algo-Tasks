@@ -24,16 +24,20 @@ git clone https://github.com/sudomango/Python-Algo-A.git
 pip install pytz
 ```
 
+Любой скрипт следует запускать **только из каталога, в котором он расположен**, ни из какого другого.
+
 Запуск решений в командной строке Windows:
 
 ```shell
-python Folder_Name/script_name.py
+cd Block_##
+python script_name.py
 ```
 
 Для Linux команда будет немного отличаться (проверено на Ubuntu Server):
 
 ```shell
-python3 Folder_Name/script_name.py
+cd Block_##
+python3 script_name.py
 ```
 
 Далее действуем согласно инструкциям скрипта и условиям конкретной задачи.
