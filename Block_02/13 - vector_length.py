@@ -1,7 +1,9 @@
 import math
 
+
 def vector_length(x, y, z):
-  return math.sqrt((x ** 2) + (y ** 2) + (z ** 2))
+    return math.sqrt((x**2) + (y**2) + (z**2))
+
 
 # Запрашиваем координаты у пользователя.
 coord_x = float(input("Введите x-координату вектора: "))

@@ -15,7 +15,7 @@ print(f"var_a = {var_a}, var_b = {var_b}")
 
 # Используем распаковку (специальная языковая конструкция).
 
-var_a, var_b = var_b, var_a # Можно записать ещё как var_a, var_b = (var_b, var_a), то есть использовать Tuple Unpacking.
+var_a, var_b = var_b, var_a  # Можно записать ещё как var_a, var_b = (var_b, var_a), то есть использовать Tuple Unpacking.
 
 print(f"var_a = {var_a}, var_b = {var_b}")
 
