@@ -19,10 +19,8 @@ def deposit_calc(sum, months):
             sum += sum * 0.065 / 12
     elif months > 6:
         procent = 0
-        if sum <= 500000:
-            procent = 0.1
-        else:
-            procent = 0.08
+        if sum <= 500000: procent = 0.1
+        else: procent = 0.08
 
         for x in range(0, months):
             sum += sum * procent / 12

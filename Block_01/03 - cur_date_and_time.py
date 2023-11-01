@@ -11,13 +11,3 @@ def main():
 
 
 main()
-
-# ----------------
-
-# Несколько полезных туториалов по модулю datetime в Python:
-
-# https://www.geeksforgeeks.org/python-datetime-module
-# https://www.w3schools.com/python/python_datetime.asp
-# https://www.programiz.com/python-programming/datetime
-
-# ----------------

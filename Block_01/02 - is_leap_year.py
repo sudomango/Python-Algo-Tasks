@@ -1,7 +1,6 @@
 def main():
     year = int(input("Введите желаемый год для проверки: "))
 
-    # Использование тернарного оператора.
     is_leap = "Високосный" if is_leap_year(year) else "Не високосный"
     print(f"{year}-й год = {is_leap}.")
 

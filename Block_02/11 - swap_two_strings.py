@@ -4,11 +4,11 @@ def main():
 
     print(text_a, text_b, sep=" -/- ")
 
-    # List Unpacking и Tuple Unpacking всё ещё хорошо работают.
+    # List Unpacking и Tuple Unpacking можно использовать и со строками.
     text_a, text_b = (text_b, text_a)
     print(text_a, text_b, sep=" -/- ")
 
-    # Можно также определить сложение и вычитание двух строк на манер того, что мы делали с числами.
+    # Можно также реализовать сложение и вычитание двух строк на манер того, что мы делали с числами.
     (text_a, text_b) = swap_strings(text_a, text_b)
     print(text_a, text_b, sep=" -/- ")
 

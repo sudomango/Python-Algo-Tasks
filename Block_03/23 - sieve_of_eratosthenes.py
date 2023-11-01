@@ -2,7 +2,7 @@ import sys, math, os
 sys.path.append(os.path.dirname(__file__) + "/..")
 import useful_functions as useful
 
-# Вот мы и добрались до Решета Эратосфена, которое является очень эффективным алгоритмом для поиска простых чисел: О(n * log(log n)).
+# Решето Эратосфена является очень эффективным алгоритмом для поиска простых чисел: О(n * log(log n)).
 
 def main():
     user_n = int(input("Введите максимальное число, до которого мы ищем простые числа: "))
@@ -23,7 +23,7 @@ def prime_soe(max_number):
     for number in range(2, max_sqrt + 1):
         # Если число = простое, то мы удаляем из решета все числа, кратные ему. Сначала кратные 2, потом кратные 3 и т. д.
         if sieve[number]:
-            for multiple in range(number * number, max_number + 1, number):  # В данном случае multiple = умноженный, кратный (мы же ищем все числа, кратные текущему простому).
+            for multiple in range(number * number, max_number + 1, number):
                 if multiple % number == 0: sieve[multiple] = False
 
     prime_numbers = []

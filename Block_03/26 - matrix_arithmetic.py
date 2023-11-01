@@ -64,7 +64,7 @@ def sum_of_main(user_matrix):
 # Последняя цифра суммы всех элементов главной и побочной диагонали матрицы.
 def last_digit_of_sum(user_matrix):
     sum = 0
-    n = len(user_matrix)  # Размерность (порядок) матрицы.
+    n = len(user_matrix)  # Вычисляем порядок матрицы.
 
     for i in range(0, n):
         sum += user_matrix[i][i] + user_matrix[n - 1 - i][i]
