@@ -12,8 +12,10 @@ def main():
 # Вспомогательная функция, позволяющая найти НОД(a, b) через последовательное вычитание чисел.
 def find_gcd(num_a, num_b):
     while num_a != num_b:
-        if num_a > num_b: num_a = num_a - num_b
-        else: num_b = num_b - num_a
+        if num_a > num_b:
+            num_a = num_a - num_b
+        else:
+            num_b = num_b - num_a
     return num_a
 
 

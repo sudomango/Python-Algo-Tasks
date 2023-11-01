@@ -7,6 +7,7 @@ date_string_b = input("Введите вторую дату в формате DD
 try:
     date_a = datetime.datetime.strptime(date_string_a, "%d.%m.%Y")
     date_b = datetime.datetime.strptime(date_string_b, "%d.%m.%Y")
+
 except ValueError:
     print("Ошибка. Вы использовали неправильный формат для ввода даты.")
     exit()
