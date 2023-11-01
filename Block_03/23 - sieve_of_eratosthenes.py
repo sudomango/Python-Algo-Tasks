@@ -1,5 +1,5 @@
-import sys, math
-sys.path.append("..")
+import sys, math, os
+sys.path.append(os.path.dirname(__file__) + "/..")
 import useful_functions as useful
 
 # Вот мы и добрались до Решета Эратосфена, которое является очень эффективным алгоритмом для поиска простых чисел: О(n * log(log n)).

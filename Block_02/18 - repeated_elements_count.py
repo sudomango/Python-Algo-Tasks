@@ -1,7 +1,10 @@
+import os
+
 def main():
     orig_string = ""
+    path_to_file = os.path.dirname(__file__) + "/../resources/long_string.txt"
 
-    with open("../resources/long_string.txt", "r", encoding="UTF-8") as file:
+    with open(path_to_file, "r", encoding="UTF-8") as file:
         orig_string = file.read()
 
     print("Оригинальная строка:\n", orig_string, sep="")

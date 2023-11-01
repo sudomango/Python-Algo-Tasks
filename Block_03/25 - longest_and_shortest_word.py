@@ -1,6 +1,8 @@
-import re
+import re, os
 
-with open("../resources/Half-Life Replace.txt", "r", encoding="UTF-8") as read_file:
+path_to_file = os.path.dirname(__file__) + "/../resources/Half-Life Replace.txt"
+
+with open(path_to_file, "r", encoding="UTF-8") as read_file:
     content = read_file.read()
 
     words = re.findall(r"\b\w+[\-‑]?\w*\b", content, flags=re.I | re.U | re.M)

@@ -1,6 +1,5 @@
 import re
 
-
 def main():
     str_number = input("Введите число: ")
 

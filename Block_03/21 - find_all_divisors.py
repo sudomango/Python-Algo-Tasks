@@ -1,6 +1,5 @@
-import sys, math
-
-sys.path.append("..")
+import sys, math, os
+sys.path.append(os.path.dirname(__file__) + "/..")
 import useful_functions as useful
 
 

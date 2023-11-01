@@ -1,6 +1,8 @@
-import re
+import re, os
 
-with open("../resources/some_plain_text.txt", "r", encoding="UTF-8") as file:
+path_to_file = os.path.dirname(__file__) + "/../resources/some_plain_text.txt"
+
+with open(path_to_file, "r", encoding="UTF-8") as file:
     content = file.read()
 
 # Очищаем слова в тексте от посторонних символов, типа знаков препинания (с помощью регулярного выражения).
