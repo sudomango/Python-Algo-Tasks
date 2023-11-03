@@ -1,21 +1,10 @@
 from math import floor, sqrt
 
-
 # Пока мы используем только простые оптимизации, без применения сложных алгоритмов.
 
 def main():
-    print("Является ли то или иное число простым?")
-
-    print("\n1 =", is_prime_number(1))  # = False
-    print("5 =", is_prime_number(5))  # = True
-    print("123 =", is_prime_number(123))  # = False
-    print("-10 =", is_prime_number(-10))  # = False
-    print("13 =", is_prime_number(13))  # = True
-    print("23 =", is_prime_number(23))  # = True
-    print("511 =", is_prime_number(511))  # = False
-    print("160789903 =", is_prime_number(160789903))  # = False
-    print("323 =", is_prime_number(323))  # = False
-    print("1095672487 =", is_prime_number(1095672487))  # = False
+    user_number = int(input("Введите любое целое число и узнайте, является ли оно простым: "))
+    print(f"Ответ: {is_prime_number(user_number)}")
 
     print("\nПростые числа от 1 до 100:", end=" ")
 
@@ -42,7 +31,8 @@ def is_prime_number(number):
     return True
 
 
-# Вспомогательная функция = inclusive range. По умолчанию в Python вторая граница диапазона (range) не включается в него.
+# Вспомогательная функция = inclusive range. По умолчанию в Python вторая граница диапазона (range) не включается.
+# Например: range(0, 9) вернёт нам список чисел 0..8. Это не всегда бывает удобно, поэтому данная функция это исправляет.
 def irange(start, end, step=1):
     if step > 0:
         return range(start, end + 1, step)
