@@ -12,7 +12,7 @@
 Наиболее интересные и сложные задачи, представленные в данном репозитории (на мой взгляд):
 
 - [Решето Эратосфена (поиск последовательности простых чисел)](https://github.com/sudomango/Python-Algo-A/blob/main/Block_03/23%20-%20sieve_of_eratosthenes.py)
-- [Различные операции с матрицами (двумерными массивами)](https://github.com/sudomango/Python-Algo-A/blob/main/Block_03/26%20-%20matrix_arithmetic.py)
+- [Различные операции с матрицами (двумерными списками и кортежами)](https://github.com/sudomango/Python-Algo-A/blob/main/Block_03/26%20-%20matrix_arithmetic.py)
 - [Конвертация чисел в разные системы счислений без использования встроенных в языке методов](https://github.com/sudomango/Python-Algo-A/blob/main/Block_02/20%20-%20dec_to_hex%2C%20hex_to_dec.py)
 - [Рекурсивное рисование фигуры "Ёлочка" из ASCII-символов](https://github.com/sudomango/Python-Algo-A/blob/main/Block_02/12%20-%20recursion_tree.py)
 - [Факторизация натурального числа (разложение на простые сомножители)](https://github.com/sudomango/Python-Algo-A/blob/main/Block_03/22%20-%20factorize_the_number.py)
